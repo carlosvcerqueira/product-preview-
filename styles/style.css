@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f2ebe3;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    overflow: hidden;
+    background-color: white;
+    width: 375px;
+    height: 575px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.449);
+}
+
+#image {
+    display: block;
+    background: url(../images/image-product-mobile.jpg) no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+#card-product {
+    display: block;
+    padding: 10px;
+}
+
+#card-product > h1 {
+    margin-bottom: 10px;
+}
+
+#card-product > p {
+    margin-bottom: 10px;
+    color: gray;
+    font-size: 14px;
+}
+
+#card-product > span {
+    margin-right: 10px;
+    text-align: center;
+}
+
+#price {
+    color: #3c8067;
+    font-family: 'Fraunces';
+    font-size: 34px;
+}
+
+#old-price {
+    text-decoration: line-through;
+    color: gray;
+}
+
+#cart {
+    text-align: center;
+    margin: 20px;
+}
+
+#cart > button {
+    width: 100%;
+    background-color: #3c8067;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+#cart > button:hover {
+    background-color: #214739;
+}
+
+#cart > button > span {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { 
+    font-size: 11px; text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

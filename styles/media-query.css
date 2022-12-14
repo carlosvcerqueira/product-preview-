@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 992px) {
+    #card {
+        width: 950px;
+        height: 600px;
+    }
+
+    #image {
+        background: url(../images/image-product-desktop.jpg) no-repeat;
+        background-size: cover;
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    #card-product {
+        float: left;
+        width: 50%;
+    }
+
+    #card-product > h1 {
+        font-size: 2em;
+    }
+
+    #card-product > p {
+        font-size: 1.1em;
+        margin: 20px 0px;
+    }
+}
